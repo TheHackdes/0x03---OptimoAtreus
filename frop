@@ -3,54 +3,41 @@ xkb_symbols "optimp" {
 
 	name[Group1]= "France - Optimp (v2.0)";
 
-	key <TLDE> { type[group1] = "FOUR_LEVEL", [ dollar, numbersign, endash, paragraph ] }; // $ # – ¶
+	// BASIC | SHIFT | ALTGR 
 
+	key <TLDE> { type[group1] = "FOUR_LEVEL",				 [ dollar, numbersign, endash, paragraph ] }; //			$ # – ¶
 
-	key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ quotedbl, 1, emdash, doublelowquotemark ] }; // " 1 — „
-	key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [eacute, 2, asciitilde, oneeighth ]	}; // 2 
-	//key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ minus, 2, guillemotleft, leftdoublequotemark ] }; // - 2 « “
-	key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ slash, 3, guillemotright, rightdoublequotemark ] }; // / 3 » ”
-	key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ greater, 4, U2A7D ] }; // > 4 ⩽
-	key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ less, 5, U2A7E ] }; // < 5 ⩾
-	key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ at, 6, asciicircum, U262D ] }; // @ 6 ^ ☭
-	key <AE07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ plus, 7, plusminus, notsign ] }; // + 7 ± ¬
-	key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenright, 8, U2212, onequarter ] }; // ) 8 − ¼
-	key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenleft, 9, division, onehalf ] }; // ( 9 ÷ ½
-	key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ asterisk, 0, multiply, threequarters ] }; // * 0 × ¾
+	key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ slash, 1, onequarter ] }; //								/ 1 ¼
+	key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ plus, 2, onehalf, oneeighth ]	}; //					+ 2 ½
+	key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ minus, 3, threequarters ] }; //							- 3 ¾
+	key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ colon, 4, U2A7D ] }; //									: 4 ⩽
+	key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ bar, 5, U2A7E ] }; //									| 5 ⩾
+	key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ underscore, 6, asciicircum, U262D ] }; //				_ 6 ^ ☭
+	key <AE07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ less, 7, plusminus, notsign ] }; //						< 7 ± ¬
+	key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ greater, 8, U2212 ] }; //								> 8 − 
+	key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ asciitilde, 9, division ] }; //							~ 9 ÷ 
+	key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ backslash, 0, multiply ] }; //							\ 0 ×
 	
-	key <AE11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ bracketleft, braceleft, backslash, singlelowquotemark ] }; // [ { \ ‚
-	key <AE12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ bracketright, braceright, degree, heart ] }; // ] } ° ♥
-
-	//key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ plus, 7, plusminus, notsign ] }; // + 7 ± ¬
-	//key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ less, 5, U2A7E ] }; // < 5 ⩾
-	//key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ slash, 3, guillemotright, rightdoublequotemark ] }; // / 3 » ”
-	//key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ quotedbl, 1, emdash, doublelowquotemark ] }; // " 1 — „
-	//key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenleft, 9, division, onehalf ] }; // ( 9 ÷ ½
-	//key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenright, 8, U2212, onequarter ] }; // ) 8 − ¼
-	//key <AE07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ asterisk, 0, multiply, threequarters ] }; // * 0 × ¾
-	//key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ minus, 2, guillemotleft, leftdoublequotemark ] }; // - 2 « “
-	//key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ greater, 4, U2A7D ] }; // > 4 ⩽
-	//key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ at, 6, asciicircum, U262D ] }; // @ 6 ^ ☭
-	//key <AE11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ bracketleft, braceleft, backslash, singlelowquotemark ] }; // [ { \ ‚
-	//key <AE12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ bracketright, braceright, degree, heart ] }; // ] } ° ♥
+	key <AE11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ bracketleft, braceleft, parenleft, backslash ] }; //		[ { ) ‚
+	key <AE12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ bracketright, braceright, parenright, heart ] }; //		] } ) ♥
 
 	key <AD01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ b, B, bar, underscore ] }; // b B | _
 	key <AD02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ w, W, U269C, U267F ] }; // w W ⚜ ♿
 	key <AD03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ p, P, ampersand, section ] }; // p P & §
-	key <AD04> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ o, O, oe, OE ] }; // o O œ Œ
-	key <AD05> { type[group1] = "FOUR_LEVEL", [ dead_acute, rightsinglequotemark, ellipsis, U2620 ] }; // ´ ’ … ☠
-	key <AD06> { type[group1] = "THREE_LEVEL", [ dead_grave, dead_circumflex, grave ] }; // ` ^ `
+	key <AD04> { type[group1] = "FOUR_LEVEL_ALPHABETIC",	 [ o, O, oe, OE ] }; // o O œ Œ
+	key <AD05> { type[group1] = "FOUR_LEVEL",				 [ dead_acute, rightsinglequotemark, ellipsis, U2620 ] }; // ´ ’ … ☠
+	key <AD06> { type[group1] = "THREE_LEVEL",				 [ dead_grave, dead_circumflex, grave ] }; // ` ^ `
 	//key <AD05> { type[group1] = "THREE_LEVEL", [ dead_grave, dead_circumflex, grave ] }; // ` ^ `
 	//key <AD06> { type[group1] = "FOUR_LEVEL", [ dead_acute, rightsinglequotemark, ellipsis, U2620 ] }; // ´ ’ … ☠
 	key <AD07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ v, numbersign, dead_caron, U2622 ] }; // v V # ☢
 	key <AD08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ d, D, UFDD7, U2623 ] }; // d D ∞ ☣
 	key <AD09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ l, L, dead_stroke, sterling ] }; // l L / £
 	key <AD10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ j, J, U262E, U262F ] }; // j J ☮ ☯
-	key <AD11> { type[group1] = "FOUR_LEVEL", [ semicolon, colon, notequal, minutes ] }; // ; : ≠ ′
-	key <AD12> { type[group1] = "FOUR_LEVEL", [ equal, percent, U2030, seconds ] }; // = % ‰ ″
+	key <AD11> { type[group1] = "FOUR_LEVEL",				 [ semicolon, colon, notequal, minutes ] }; // ; : ≠ ′
+	key <AD12> { type[group1] = "FOUR_LEVEL",				 [ equal, percent, U2030, seconds ] }; // = % ‰ ″
 
-	key <AC01> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ a, A, ae, AE ] }; // a A æ Æ
-	key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ u, U, ugrave, Ugrave ] }; // u U ù Ù
+	key <AC01> { type[group1] = "FOUR_LEVEL_ALPHABETIC",	 [ a, A, ae, AE ] }; // a A æ Æ
+	key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC",	 [ u, U, ugrave, Ugrave ] }; // u U ù Ù
 	key <AC03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ i, I, dead_diaeresis, dead_abovedot ] }; // i I ¨ ˙
 	key <AC04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ e, E, EuroSign, dead_currency ] }; // e E € ¤
 	key <AC05> { type[group1] = "FOUR_LEVEL", [ comma, question, questiondown, dead_belowcomma ] }; // , ? ¿ ,
@@ -82,3 +69,31 @@ xkb_symbols "optimp" {
 
 	include "level3(ralt_switch)"
 };
+
+
+
+
+	//key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ quotedbl, 1, emdash, doublelowquotemark ] }; // " 1 — „
+	//key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [eacute, 2, asciitilde, oneeighth ]	}; // 2 
+	//key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ minus, 2, guillemotleft, leftdoublequotemark ] }; // - 2 « “
+	//key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ slash, 3, guillemotright, rightdoublequotemark ] }; // / 3 » ”
+	//key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ greater, 4, U2A7D ] }; // > 4 ⩽
+	//key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ less, 5, U2A7E ] }; // < 5 ⩾
+	//key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ at, 6, asciicircum, U262D ] }; // @ 6 ^ ☭
+	//key <AE07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ plus, 7, plusminus, notsign ] }; // + 7 ± ¬
+	//key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenright, 8, U2212, onequarter ] }; // ) 8 − ¼
+	//key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenleft, 9, division, onehalf ] }; // ( 9 ÷ ½
+	//key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ asterisk, 0, multiply, threequarters ] }; // * 0 × ¾
+
+	//key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ plus, 7, plusminus, notsign ] }; // + 7 ± ¬
+	//key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ less, 5, U2A7E ] }; // < 5 ⩾
+	//key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ slash, 3, guillemotright, rightdoublequotemark ] }; // / 3 » ”
+	//key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ quotedbl, 1, emdash, doublelowquotemark ] }; // " 1 — „
+	//key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenleft, 9, division, onehalf ] }; // ( 9 ÷ ½
+	//key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenright, 8, U2212, onequarter ] }; // ) 8 − ¼
+	//key <AE07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ asterisk, 0, multiply, threequarters ] }; // * 0 × ¾
+	//key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ minus, 2, guillemotleft, leftdoublequotemark ] }; // - 2 « “
+	//key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ greater, 4, U2A7D ] }; // > 4 ⩽
+	//key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ at, 6, asciicircum, U262D ] }; // @ 6 ^ ☭
+	//key <AE11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ bracketleft, braceleft, backslash, singlelowquotemark ] }; // [ { \ ‚
+	//key <AE12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ bracketright, braceright, degree, heart ] }; // ] } ° ♥

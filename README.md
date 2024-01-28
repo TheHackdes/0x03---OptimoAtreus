@@ -37,6 +37,16 @@ This script will simply copy the `frop` file to `/usr/share/X11/xkb/symbols/` wh
 setxkbmap frop
 ```
 
+## Layout
+
+### Base
+
+![Function 1](./sources/Layout_Keyboard/images/keyboard-layout-base.png)
+
+### Function 1
+
+![Function 1](./sources/Layout_Keyboard/images/keyboard-layout-fun1.png)
+
 ## Contribute
 
 As a reminder, this project is still only a draft, as we are still learning about this provision, any contribution and opinion /improvement of this provision is welcome.
